@@ -1,0 +1,14 @@
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-input {
+    outline:0px !important;
+    border: 0px;
+    border-bottom: 1px solid black;
+    -webkit-appearance:none;
+    text-align: right;
+  }
+}
